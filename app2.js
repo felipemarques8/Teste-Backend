@@ -22,7 +22,7 @@ function putOnParent(obj) {
 
 function calcParentDebitAndCredit(obj) {
 	const parent = getParent(obj, objs);
-
+	
 	obj.children = []
 
 	if (!parent) {
